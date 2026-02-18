@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  /* font-style: normal; */
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.navbar{
+    position: fixed;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 1fr;
+    width: 100vw;
+    height: 10vh;
+    background-color: aliceblue;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    grid-column: 2/4;
+  
+}
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: 1px solid white;
+}
+#services{
+    grid-column: 6/7;
+}
+#aboutus{
+      grid-column: 7/8;
+      
+}
+#gallery{
+   grid-column: 8/9;
+}
+#booking{
+grid-column: 9/10;
+}
+#booking-button{
+background-color: #ed13c9;
+padding: 10px;
+color: white;
+font-size: 20px;
+border-radius: 15px;
+border: 2px solid white;
+}
+.hero{
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
+    grid-template-columns: repeat(10,1fr);
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./gettyimages-1326008290-640x640.jpg');
+    background-size: cover;
+    
+}
+.hero-content{
+    display: grid;
+    grid-template-rows:repeat(5,1fr);
+    grid-template-columns: 1fr;
+    grid-column: 3/9;
+    grid-row: 3/9;
+    backdrop-filter: blur(4px);
+    
+}
+.tital{
+    font-size: 65px;
+    display: flex;
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+     grid-row: 1/3;
+     color: white;
+}
+.data{
+    font-size: 20px;
+    display: flex;
+    letter-spacing: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-row: 3/4;
+    color: white;
+}
+.appointment_services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    grid-row: 4/5;
+    
+}
+#appointment-button{
+    background-color: #ed13c9;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+#Service-button{
+    background-color: #615b53;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+.about{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(10,1fr);
+    background-color: black;
+
+ 
+}
+.header1{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    grid-column: 4/8;
+    grid-row: 2/3;
+    color: #ed13c9;
+}
+.header2{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-column: 4/8;
+    grid-row: 3/4;
+    background-color: aqua;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column: 2/10;
+    grid-row: 5/9;
+    
+    gap: 3px;
+
+
+}
+#box1:hover{
+ background-color: #ed13c9;
+}
+#box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    padding: 5px;
+    grid-column: 1/2;
+    background-color: wheat;
+}
+#box2{
+    grid-column: 2/3;
+    
+    background-color: wheat;
+}
+#box3{
+    grid-column: 3/4;
+    
+    background-color: wheat;
+}
